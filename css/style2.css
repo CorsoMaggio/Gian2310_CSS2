@@ -1,0 +1,21 @@
+.testo-colorato{
+  color:red;
+}
+
+.testo-colorato:hover{
+  color:blue;
+}
+
+p{
+  color:red;
+}
+
+p::before{
+  content: "* ";
+  color: gold;
+}
+
+p::after {
+  content: "*...";
+  color:gold;
+}
